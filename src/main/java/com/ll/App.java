@@ -15,6 +15,10 @@ class App {
             if(cmd.equals("종료")) { //string 비교할떄 == 아니라 000.equals이다! 외워라
                 break; // cotinue 이번 텀만 쉬는것 break 반복문 자체가 끝나는것!!
             }
+            else if(cmd.equals("등록")) {
+                System.out.println("명언 : ");
+                System.out.println("작가 : ");
+            }
             System.out.printf("입력하신 명령 : %s\n", cmd);
             // 위 라인은 아래 라인과 같은 뜻 cmd안에 값이 %s로 치환이 되서 문장이 완성
             //System.out.printf("입력하신 명령 : %s\n");
